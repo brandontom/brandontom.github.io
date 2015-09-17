@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rose-Hulman Chat Application
+Bundle-SymbolicName: edu.rosehulman.chat;singleton:=true
+Bundle-Version: 1.0.0.alpha
+Bundle-Activator: edu.rosehulman.chat.ChatPlugin
+Bundle-Vendor: Brandon Nolan Tom
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: edu.rosehulman.chat,
+ edu.rosehulman.chat.communication,
+ edu.rosehulman.chat.extension
